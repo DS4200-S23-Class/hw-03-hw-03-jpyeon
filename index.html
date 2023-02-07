@@ -1,19 +1,58 @@
-<!DOCTYPE html>
-<html> 
+<!DOCTYPE html> 
+<html>
 
+<!-- Meta data / set up -->
 <head>
-    <meta charset=utf-8/>
-    <title>hw-03</title>
-    <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src = 'external.js'></script>   
+
+  <title>hw-03</title>
+    
 </head>
 
-
-
+<!-- structure webpage -->
 <body>
+
 <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
 
-<script src="external.js"></script>
+<div class="row">
+  <div class="column">
+    <img id="topright" src="img/vis1.png">
+    <img id="midright" src="img/vis2.png">
+    <img class="botright" src="img/vis3.png" >
+     <button type="button" onClick = "buttonClicked()">Click Me!</button>
+        <div id = "button-div" class = "gen"></div>
+  </div>
+  <div class="column">
+    <div class = "img1text">
+    <h2>Marks</h2>
+    <p>Some text..</p>
+    <h2>Channels</h2>
+    <p>Some text..</p>
+    <h2>Colormap(s)</h2>
+   </div>
+
+    <div class = "img2text">
+    <h2>Marks</h2>
+    <p>Some text..</p>
+    <h2>Channels</h2>
+    <p>Some text..</p>
+    <h2>Colormap(s)</h2>
+   </div>
+   
+   <div class = "img3text">
+       <h2>Marks</h2>
+    <p>Some text..</p>
+    <h2>Channels</h2>
+    <p>Some text..</p>
+    <h2>Colormap(s)</h2>
+  </div>
+
+  </div>
+
 
 </body>
 
 </html>
+

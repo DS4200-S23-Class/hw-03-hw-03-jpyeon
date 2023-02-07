@@ -1,1 +1,57 @@
 /* Styling for HW-03 Goes in this File */
+
+body {
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {  
+max-width: 100%;  
+height: auto;  
+}  
+
+.img1text {
+  position:absolute;
+  top: 120px; 
+  left: 650px;
+}
+
+.img2text {
+  position:absolute;
+  top:710px;
+  left: 650px;
+}
+
+.img3text {
+  position:absolute;
+  top:1570px; 
+  left: 650px; 
+}
+
+.botright {
+  height: 400px;
+  width: 950px;
+}
+
+
