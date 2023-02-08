@@ -26,34 +26,34 @@ h1 {
   clear: both;
 }
 
+/*styles the images*/
 img {  
 max-width: 100%;  
 height: auto;  
 }  
 
+/*styles text after images*/
 .img1text {
   position:absolute;
   top: 130px; 
-  left: 780px;
+  left: 820px;
 }
 
 .img2text {
   position:absolute;
   top:880px;
-  left: 780px;
+  left: 820px;
 }
 
 .img3text {
   position:absolute;
   top:1700px; 
-  left: 780px; 
+  left: 820px; 
 }
 
-
+/*manipulates image size of visualization*/
 .botright {
   height: 500px;
   width: 950px;
   margin-right: 500px;
 }
-
-

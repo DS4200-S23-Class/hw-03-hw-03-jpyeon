@@ -15,12 +15,12 @@
 <body>
 
 <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
-
+<!-- Implemented counter button for extra credit-->
   <button type="button" onClick = "buttonClicked()">Click Me!</button>
         <div id = "button-div" class = "gen"></div>
   </div>
 
-
+<!-- creates two column layout for web page-->
 <div class="row">
   <div class="column">
     <img id="topright" src="img/vis1.png">
@@ -30,7 +30,7 @@
     <div class = "img1text">
     <h2>Marks</h2>
     <ul>
-      <li>Area - This visualizaton is an area mark as it denotes the states within the United States on a geographic map that already have a certain size. This is a good decision for this visualization since states has both dimensions of its size constrained intrinsically and implementing additional attributes would defeat the purpose of using the area mark.</li>
+      <li>Area and Line- This visualizaton is an area mark as it denotes the states within the United States on a geographic map that already have a certain size. This is a good decision for this visualization since states has both dimensions of its size constrained intrinsically and implementing additional attributes would defeat the purpose of using the area mark. This can also be a line mark since the visualization indicates the number of votes necessary to win.</li>
     </ul> 
     <h2>Channels</h2>
     <ul>
@@ -58,7 +58,7 @@
     <div class = "img2text">
     <h2>Marks</h2>
     <ul>
-        <li>Point - The marks for this image is are uniform point marks that are used to encode a position of a data point relative to launch angle and exit velocity. </li>
+        <li>Point and Line- The marks for this image are uniform point marks that are used to encode a position of a data point relative to launch angle and exit velocity. This can also be a line mark since the visualization indicates the categories of ground balls, line drives, and fly balls with their corresponding launching angle.</li>
     </ul>
     <h2>Channels</h2>
     <ul>
@@ -104,7 +104,7 @@
     <ul>
      <li>Sequential</li>
       <ul>
-      <li>This is a categorical colormap that uses color to encode groupings of the quality of each diamond in question. The blue and red colors are intended to color multiple individual spatial regions to make them distinguishable from each other by the quality of each diamond according to its corresponding price and carat number, essentially where it falls in the graph.</li>
+      <li>This is a ordinal colormap that uses color to encode groupings of the quality of each diamond in question. The blue and red colors are intended to color multiple individual spatial regions to make them distinguishable from each other by the quality of each diamond according to its corresponding price and carat number, essentially where it falls in the graph.</li>
       <li> This choice of colormap attribute type is significant as it maps the data values to three distinct colors, allowing users to identify the quality of the diamonds easily through association. The visualization uses the choice to have three specfic bins to differentiate among the quality types of the diamonds. This is done by seperating the quality types ideal, good, and fair; essentially encoding the attribute in each bin with a distinguishable color.</li>
     </ul>
   </div>
