@@ -12,48 +12,16 @@ h1 {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+.row {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .column {
-  float: left;
-  width: 50%;
-  padding: 30px;
+  padding: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/*styles the images*/
-img {  
-max-width: 100%;  
-height: auto;  
-}  
-
-/*styles text after images*/
-.img1text {
-  position:absolute;
-  top: 130px; 
-  left: 820px;
-}
-
-.img2text {
-  position:absolute;
-  top:880px;
-  left: 820px;
-}
-
-.img3text {
-  position:absolute;
-  top:1700px; 
-  left: 840px; 
-}
-
-/*manipulates image size of visualization*/
-.botright {
-  height: 500px;
-  width: 700px;
-  margin-right: 500px;
+.botright{
+ width: 580px;
 }
