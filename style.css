@@ -33,25 +33,27 @@ height: auto;
 
 .img1text {
   position:absolute;
-  top: 120px; 
-  left: 650px;
+  top: 130px; 
+  left: 780px;
 }
 
 .img2text {
   position:absolute;
-  top:710px;
-  left: 650px;
+  top:880px;
+  left: 780px;
 }
 
 .img3text {
   position:absolute;
-  top:1570px; 
-  left: 650px; 
+  top:1700px; 
+  left: 780px; 
 }
 
+
 .botright {
-  height: 400px;
+  height: 500px;
   width: 950px;
+  margin-right: 500px;
 }
 
 
