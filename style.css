@@ -48,12 +48,12 @@ height: auto;
 .img3text {
   position:absolute;
   top:1700px; 
-  left: 820px; 
+  left: 840px; 
 }
 
 /*manipulates image size of visualization*/
 .botright {
   height: 500px;
-  width: 950px;
+  width: 700px;
   margin-right: 500px;
 }
