@@ -64,28 +64,28 @@
   <div class="column">
     <h2>Marks</h2>
     <ul>
-      <li>Area and Line - This visualizaton is an area mark as it denotes the states within the United States on a geographic map that already have a certain size. This is a good decision for this visualization since states has both dimensions of its size constrained intrinsically and implementing additional attributes would defeat the purpose of using the area mark. This can also be a line mark since the visualization indicates the number of votes necessary to win.</li>
+      <li>Point and Line - The marks for this image are uniform point marks that are used to encode a position of a data point relative to launch angle and exit velocity. This can also be a line mark since the visualization indicates the categories of ground balls, line drives, and fly balls with their corresponding launching angle.</li>
     </ul> 
     <h2>Channels</h2>
     <ul>
      <li>Color (Hue)</li>
       <ul>
-      <li>One channel of the area mark is to use red and blue color hues as shaded regions to depict the quantitative variations of the electoral votes between different states on the map. This is an identity channel as it helps us diffrentiate which states are made up of Clintons' or Trumps' electoral votes if only women were to vote in 2016.</li>
-      <li>This channel is a good mapping choice for this visualization as it helps the users of this visualiztion view and conclude the candidate of which most eletoral votes were made towards in each individual state efficiently.
+      <li>One channel is varying the color luminance of both the purple and orangle colors depending on where the point values were at on a scale of scoring values. This is an identify channel as it helps distinguish whether the batted ball was average, below average, or above average.</li>
+      <li>This channel is a good mapping choice as it helps the user to contextualize the data and assess which batted balls in the cluster of points were more valuable.</li>
     </ul>
 
      <li>Position</li>
       <ul>
-      <li>Another channel of the area mark is the choice to use positioning of the states within the geographic map. Changing the position of the state would defeat the purpose of using an area mark for this visualization which is how we can indicate this is the use of a position identity channel.</li>
-      <li>This is a good mapping since it depicts the candidate that recieved the majority of electoral votes within each spatial region.</li>
+      <li>The channel of the area mark is the choice to use position of points to establish a relationship between the launch angle of batted balls versus exit velocity.</li>
+      <li>This channel is a poor mapping choice in itself as there are two many points for a user to determine by themselves what the data means without further context of visual labels.</li>
     </ul>
     </ul>
     <h2>Colormap(s)</h2>
     <ul>
-     <li>Categorical</li>
+     <li>Sequential</li>
       <ul>
-      <li>This is a categorical colormap that uses color to encode categories and groupings of each candidate. The blue and red colors are intended to color multiple individual spatial regions to make them distinguishable from each other by which candidate recieved the majority of the electoral votes in that region.</li>
-      <li> This choice of colormap attribute type is significant as it maps the data values to two distinct colors, allowing users to identify categories of values quickly and easily through association which is why this is an overall good mapping choice. The visualization uses the choice to have two specfic bins to diffrentiate among two candidates; explicitly through this deliberate data transformation, we are taking into account the nature of the data and task at hand. This is done by seperating the candidates who recieved the majority of electoral votes within each state; essentially encoding the attribute in each bin with a distinguishable color. </li>
+      <li>This is a ordinal colormap that uses color and luminence to encode the scoring value of batted balls during the 2015 MLB season. The purple, orange, and white with varying levels of luminence are meant to clearly distinguish the value of balls in the large cluster of points.</li>
+      <li> This choice of colormap attribute type is significant as it maps the values to three colors in relation to the scoring value of a batted ball. These are three specific bins that correspond to scoring values of below average, average, or above average. The color luminence further encodes on these three bins but makes specific ranges of values more distinguishable. </li>
     </ul>
    </div>
 </div>
@@ -125,7 +125,16 @@
 
 </body>
 
+<h3>Acknowledgements</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text</a></li>
+<li><a href="https://www.csl.mtu.edu/cs5631.ck/common/05-Marks-Channels.pdf">https://www.csl.mtu.edu/cs5631.ck/common/05-Marks-Channels.pdf</a></li>
+<li><a href="https://www.tutorialspoint.com/css/css_positioning.htm">https://www.geeksforgeeks.org/https://www.tutorialspoint.com/css/css_positioning.htm</a></li>
+<li><a href="https://www.geeksforgeeks.org/html-tags-a-to-z-list/?ref=lbp">https://www.geeksforgeeks.org/html-tags-a-to-z-list/?ref=lbp</a></li>
+<li><a href="https://www.w3schools.com/html/html_lists_unordered.asp">https://www.w3schools.com/html/html_lists_unordered.asp</a></li>
 
+
+</ul>
 
 </body>
 
